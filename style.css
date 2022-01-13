@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header-wrapper {
+    width: 100%;
+    height: 70px;
+    background: #2c6431;
+}
+
+.header {
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+
+.logo {
+    width: 200px;
+    height: 70px;
+    float: left;
+    padding-top: 5px;
+}
+
+.nav-bar {
+    width: 1000px;
+    height: 70px;
+    float: left;
+}
+
+.nav-menu {
+    width: 700px;
+    height: 70px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25px;
+    padding-left: 80px;
+    font-size: 16px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.nav-menu a:hover {
+    background: #224e25;
+    padding: 25px 20px;
+}
+
+input {
+    width: 200px;
+    height: 39px;
+    background-color: #fff;
+    float: left;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    position: relative;
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+    ;
+}
+
+.search i {
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    transform: translateX(-24px);
+    margin-top: 27px;
+    background-color: white;
+}
+
+.contact {
+    width: 30px;
+    height: 70px;
+    float: left;
+    color: white;
+    padding-top: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+}
+
+.contact i {
+    transform: translateY(15px);
+    margin-left: 30px;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    float: left;
+}
+
+.banner img {
+    width: 100%;
+    height: 700px;
+}
+
+.shop-wrapper {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    float: left;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    padding-left: 90px;
+}
+
+.sh {
+    width: 300px;
+    height: 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border-right: 1px solid #383838;
+}
+
+.sh h4 {
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 60px;
+    margin-top: 15px;
+}
+
+.sh img {
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+.sh:hover {
+    background-color: #224e25;
+    color: white;
+}
+
+.sale-wrapper {
+    width: 100%;
+    height: 300px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.sale-wrapper h2 {
+    padding-left: 150px;
+    color: darkgray;
+}
+
+.sale {
+    margin: auto;
+    width: 1200px;
+    height: 320px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #f3f3f3;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    ;
+}
+
+.gridA {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+    gap: 30px;
+    padding-left: 50px;
+    ;
+}
+
+.gridA a {
+    text-decoration: none;
+}
+
+.gridA h5 {
+    margin-top: -10px;
+    color: #224e25;
+}
+
+.jacket {
+    background-image: url(images/b-jackets-1003-1.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    float: left;
+}
+
+.discover {
+    width: 600px;
+    height: 300px;
+    margin-left: 800px;
+    color: white;
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.discover h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    ;
+}
+
+.discover p {
+    font-size: 20px;
+    margin-top: -20px;
+    ;
+}
+
+.discover button {
+    background-color: #224e25;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.trekking {
+    width: 100%;
+    height: 500px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid white;
+}
+
+.trek {
+    width: 50%;
+    height: 500px;
+    border-left: 1px solid white;
+    float: left;
+    display: flex;
+}
+
+.trek img {
+    position: relative;
+    width: 758px;
+}
+
+.trek-text {
+    width: 750px;
+    height: 300px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 500px;
+}
+
+.trek-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.trek-text button {
+    background-color: #224e25;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.tre {
+    width: 50%;
+    height: 500px;
+}
+
+.Research {
+    background-image: url("https://content.woodlandworldwide.com/static/images/banners/1005/b-research-lab-1005-1.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid white;
+    float: left;
+}
+
+.pro {
+    background-image: url("images/b-pro-1008-1.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid white;
+    float: left;
+}
+
+.dis {
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+    color: white;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dis h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.dis p {
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.dis button {
+    background-color: #224e25;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    float: left;
+}
+
+.footer {
+    margin: auto;
+    width: 1200px;
+    height: 700px;
+}
+
+.add {
+    width: 1200px;
+    height: 230px;
+    border-bottom: 1px solid darkgray;
+}
+
+.heading {
+    width: 500px;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 25px;
+    ;
+}
+
+.heading h1 {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: -2px;
+    line-height: 30px
+}
+
+.heading p {
+    line-height: 25px;
+}
+
+.WOMW {
+    float: left;
+    width: 1200px;
+    height: 400px;
+}
+
+.wood {
+    width: 50%;
+    height: 400px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+
+.wood ul {
+    list-style: none;
+}
+
+.woo li {
+    margin-left: -40px;
+    line-height: 30px;
+    color: darkgrey;
+}
+
+.woo h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.wn {
+    width: 50%;
+    height: 250px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    padding-left: 180px;
+}
+
+.men {
+    width: 200px;
+}
+
+.men ul {
+    list-style: none;
+}
+
+.wn li {
+    margin-left: -40px;
+    line-height: 30px;
+    color: darkgrey;
+}
+
+.wn h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.shouid {
+    width: 500px;
+    height: 50px;
+    float: left;
+    color: white;
+    padding-left: 200px;
+}
+
+.shouid h3 {
+    font-weight: 400;
+    transform: translateY(-20px);
+}
+
+.shouid button {
+    background-color: #224e25;
+    border: none;
+    color: white;
+    padding: 9px 20px;
+    transform: translateY(15px);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    transform: translateY(-10px);
+    border: .5px solid darkgray;
+    border-left: none;
+}
+
+.shouid input {
+    background-color: black;
+    border: .5px solid darkgray;
+    transform: translateY(-24px);
+    border-right: none;
+    color: white;
+    height: 38px;
+}
+
+.smart {
+    width: 1200px;
+    margin: auto;
+    height: 50px;
+    border-top: .5px solid darkgray;
+    float: left;
+    margin-top: 20px;
+}
+
+.logo1 {
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+
+.logo1 i {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.logo1 a {
+    color: darkgrey;
+}
+
+.logo1 a :hover {
+    color: white;
+}
+
+.copy {
+    width: 400px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: darkgray;
+    float: right;
+    padding-top: 15px;
+    font-size: 15px;
+}
